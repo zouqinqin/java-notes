@@ -2,8 +2,7 @@ package jvm.classloader;
 
 public class HotDeployTest {
 
-    private static final String CLASS_DIR =
-            System.getProperty("user.home") + "/hotdeploy/classes";
+    private static final String CLASS_DIR = System.getProperty("user.home") + "/hotdeploy/classes";
     private static final String CLASS_NAME = "jvm.hot.HotService";
 
     public static void main(String[] args) throws Exception {

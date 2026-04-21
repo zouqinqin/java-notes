@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ * 打破双亲委派，让热部署的类优先走自己的加载器
+ */
 public class HotDeployClassLoader extends ClassLoader {
 
     private String classDir;
