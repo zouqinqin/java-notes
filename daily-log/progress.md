@@ -40,8 +40,14 @@
 - [x] Spring循环依赖怎么解决（三级缓存）
 - [x] ApplicationContext vs BeanFactory区别
 
-### Spring boot
-- [ ] Spring Boot自动装配原理
+### Spring Boot
+- [ ] Spring Boot自动装配原理（@EnableAutoConfiguration / spring.factories / SPI）
+- [ ] Spring Boot启动流程（SpringApplication.run源码）
+- [ ] 条件注解原理（@Conditional、@ConditionalOnClass等）
+- [ ] 内嵌容器原理（Tomcat/Jetty如何嵌入）
+- [ ] Actuator监控与健康检查
+- [ ] 配置加载优先级（application.yml / 环境变量 / 命令行参数）
+- [ ] Starter机制（如何自定义Starter）
 
 ### MySQL
 - [ ] 索引原理（B+树）
